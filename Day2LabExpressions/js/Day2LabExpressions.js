@@ -35,7 +35,7 @@ var groceryBillWeek5 = 23.20;
 var totalAmount = groceryBillWeek1 + groceryBillWeek2 + groceryBillWeek3 + groceryBillWeek4 + groceryBillWeek5;
 
 //Find average spent on groceries
-var averageSpending = (groceryBillWeek1 + groceryBillWeek2 + groceryBillWeek3 + groceryBillWeek4 + groceryBillWeek5) / 5;
+var averageSpending = totalAmount / 5;
 
 //Display total amount spent on groceries
 console.log("You have spent a total of " + totalAmount + " on groceries over 5 weeks. That is an average of " + averageSpending +"per week");
@@ -47,12 +47,14 @@ var discountDecimal = discountPercent / 100;
 var itemDescription = "Football Jersey";
 var salesTaxPercent = 6;
 var taxDecimal = salesTaxPercent / 100;
+var calculateTax = originalPrice * taxDecimal;
 var calculateDiscount = originalPrice * discountDecimal;
-var calculateTax = originalPrice * taxDecimal
+
 
 //Find price of item with tax
+
 var itemWithTax = originalPrice + calculateTax;
-console.log(itemWithTax)
+console.log(itemWithTax);
 
 //price of item with tax with discount
 
