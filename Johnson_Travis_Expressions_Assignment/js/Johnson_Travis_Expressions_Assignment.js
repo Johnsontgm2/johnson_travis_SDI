@@ -9,7 +9,7 @@ Expressions Assignment
 //Calculator that tells you the average amount of Madden games you play per week
 
 //Tell the user whats going on
-alert("Hello, this calculator is designed to tell you the average number of Madden games you play per week. Play responsibly.");
+alert("Hello, this calculator is designed to tell you the average number of Madden games you play per day and your weekly total of games played.Please play responsibly.");
 
 //Ask user for input
 var maddenMonday = prompt("How many games of Madden did you play on Monday?");
@@ -36,4 +36,4 @@ var totalGamesPlayed = maddenTimesPlayedPerDay[0] + maddenTimesPlayedPerDay[1] +
 var averageGamesPlayed = totalGamesPlayed /=7;
 
 //Give output to user
-console.log(averageGamesPlayed);
+console.log("You played " + totalGamesPlayed + " games of Madden this week giving you an average of " + averageGamesPlayed + " played per day");
