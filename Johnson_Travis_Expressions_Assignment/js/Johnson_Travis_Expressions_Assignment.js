@@ -11,6 +11,7 @@ Expressions Assignment
 //Tell the user whats going on
 alert("Hello, this calculator is designed to tell you the average number of Madden games you play per week. Play responsibly.");
 
+//Ask user for input
 var maddenMonday = prompt("How many games of Madden did you play on Monday?");
 var maddenTuesday = prompt("How many games of Madden did you play on Tuesday?");
 var maddenWednesday = prompt("How many games of Madden did you play on Wednesday?");
@@ -20,7 +21,7 @@ var maddenSaturday = prompt("How many games of Madden did you play on Saturday?"
 var maddenSunday = prompt("How many games of Madden did you play on Sunday");
 var maddenTimesPlayedPerDay = [0];
 
-
+//took data from prompts and entered it into an array
 maddenTimesPlayedPerDay[0]=parseInt(maddenMonday);
 maddenTimesPlayedPerDay[1]=parseInt(maddenTuesday);
 maddenTimesPlayedPerDay[2]=parseInt(maddenWednesday);
@@ -29,9 +30,10 @@ maddenTimesPlayedPerDay[4]=parseInt(maddenFriday);
 maddenTimesPlayedPerDay[5]=parseInt(maddenSaturday);
 maddenTimesPlayedPerDay[6]=parseInt(maddenSunday);
 
-
+//Found the average of the information in the array
 var totalGamesPlayed = maddenTimesPlayedPerDay[0] + maddenTimesPlayedPerDay[1] + maddenTimesPlayedPerDay[2] + maddenTimesPlayedPerDay[3] + maddenTimesPlayedPerDay[4] + maddenTimesPlayedPerDay[5] + maddenTimesPlayedPerDay[6];
 
 var averageGamesPlayed = totalGamesPlayed /=7;
 
+//Give output to user
 console.log(averageGamesPlayed);
