@@ -37,8 +37,8 @@
       <file leaf-file-name="Johnson_Travis_Expressions_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Johnson_Travis_Expressions_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20436817" vertical-offset="49" max-vertical-offset="705">
-              <caret line="11" column="153" selection-start-line="11" selection-start-column="153" selection-end-line="11" selection-end-column="153" />
+            <state vertical-scroll-proportion="0.8595944" vertical-offset="79" max-vertical-offset="720">
+              <caret line="38" column="459" selection-start-line="38" selection-start-column="459" selection-end-line="38" selection-end-column="459" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -61,8 +61,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
-    <option name="y" value="23" />
+    <option name="x" value="-7" />
+    <option name="y" value="58" />
     <option name="width" value="1400" />
     <option name="height" value="787" />
   </component>
@@ -186,7 +186,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1400" height="787" extended-state="0" />
+    <frame x="-7" y="58" width="1400" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -240,8 +240,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Johnson_Travis_Expressions_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20436817" vertical-offset="49" max-vertical-offset="705">
-          <caret line="11" column="153" selection-start-line="11" selection-start-column="153" selection-end-line="11" selection-end-column="153" />
+        <state vertical-scroll-proportion="0.8595944" vertical-offset="79" max-vertical-offset="720">
+          <caret line="38" column="459" selection-start-line="38" selection-start-column="459" selection-end-line="38" selection-end-column="459" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
