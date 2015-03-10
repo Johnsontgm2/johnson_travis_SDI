@@ -52,6 +52,5 @@ Day 3 Prompts
  if(budget >= carPrice && paycheck > 1500){
      console.log("You can buy the car");
 
- } else{
-     console.log("Find a better car or a cheaper job");
+ } else{console.log("Find a better car or a cheaper job");
  }
