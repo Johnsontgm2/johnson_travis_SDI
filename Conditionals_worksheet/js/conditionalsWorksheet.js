@@ -47,7 +47,15 @@ if(gasTankCapacity * gasTankPercentLeftDecimal * milesPerGallon >= distanceToGo)
      console.log("Welcome Spankiticus")
  }
 
- 
+ //Group3 question
+  var tirePressure = [33,31,4,44];
+
+//setup conditional
+
+if(tirePressure[0] == tirePressure[1] && tirePressure[2] == tirePressure[3]){
+    console.log("The tires passed spec")
+
+} else(console.log("Get your tires checked"));
 
 
 
