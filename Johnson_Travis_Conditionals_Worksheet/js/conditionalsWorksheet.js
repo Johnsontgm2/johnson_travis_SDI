@@ -55,7 +55,9 @@ if(gasTankCapacity * gasTankPercentLeftDecimal * milesPerGallon >= distanceToGo)
 if(tirePressure[0] === tirePressure[1] && tirePressure[2] === tirePressure[3]){
     console.log("The tires passed spec")
 
-} else(console.log("Get your tires checked"));
+} else{
+    console.log("Get your tires checked")
+}
 
 
 
