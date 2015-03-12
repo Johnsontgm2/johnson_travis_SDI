@@ -22,28 +22,28 @@ Conditionals Worksheet
 if(gasTankCapacity * gasTankPercentLeftDecimal * milesPerGallon >= distanceToGo){
     console.log("Yes, you can make it without getting gas.");
 
-} else{console.log("You only have " + gallonsLeft + "gallons left in your gas tank, better get gas while you can!");
+} else{console.log("You only have " + gallonsLeft + " gallons left in your gas tank, better get gas while you can!");
 }
 
  //Group2 question
 
 //set given variables
  var userName = "spankiticus";
- var Password = String(1234);
+ var Password = 1234;
  var enterUserName = prompt("Please enter your username");
  var enterPassword = prompt("Please enter your password");
 
  //setup conditional
- if (enterUserName == userName){
+ if (enterUserName === userName){
 
  } else (console.log("User not found"));
 
- if (enterPassword == Password){
+ if (parseInt(enterPassword) === Password){
 
 
  } else (console.log("Your password does not match our records"));
 
- if (enterUserName == userName && enterPassword == Password){
+ if (enterUserName === userName && parseInt(enterPassword) === Password){
      console.log("Welcome Spankiticus")
  }
 
@@ -52,7 +52,7 @@ if(gasTankCapacity * gasTankPercentLeftDecimal * milesPerGallon >= distanceToGo)
 
 //setup conditional
 
-if(tirePressure[0] == tirePressure[1] && tirePressure[2] == tirePressure[3]){
+if(tirePressure[0] === tirePressure[1] && tirePressure[2] === tirePressure[3]){
     console.log("The tires passed spec")
 
 } else(console.log("Get your tires checked"));
