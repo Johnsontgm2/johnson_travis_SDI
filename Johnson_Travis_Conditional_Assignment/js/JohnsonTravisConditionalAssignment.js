@@ -29,7 +29,7 @@ Conditionals Assignment
   */
 
  //Let the user know what the calculator is for
- prompt("This calculator is designed to help you decide if you should go to the range based on temperature and wind. and find the kinetic energy in ft lbs of a bullet. For the calculator to do its calculation you need to enter the weight of the bullet(in grains) and the velocity(in FPS) of the ammunition you are using. This information can be found on the box of ammunition itself or by visiting the manufacturers website.");
+ prompt("This calculator is designed to help you decide if you should go to the range based on temperature and wind. The calculator will also find the kinetic energy in ft lbs of a bullet. For the calculator to do its calculation you need to enter the weight of the bullet(in grains) and the velocity(in FPS) of the ammunition you are using. This information can be found on the box of ammunition itself or by visiting the manufacturers website.");
 
  //Setup prompt, validate prompt and variables to decide if the user should go to the range or not that day.
 var temperature = prompt("Please enter the temperature in fahrenheit");
