@@ -24,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Day6ForLoops.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day6/js/Day6ForLoops.js">
+      <file leaf-file-name="Day6Validation.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day6/js/Day6Validation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83619344" vertical-offset="124" max-vertical-offset="795">
-              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.21060842" vertical-offset="0" max-vertical-offset="641">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day6Validation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day6/Day6Validation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -70,6 +80,8 @@
         <option value="$PROJECT_DIR$/Day6/js/Day6WhileLoop.js" />
         <option value="$PROJECT_DIR$/Day6/Day6forloops.html" />
         <option value="$PROJECT_DIR$/Day6/js/Day6ForLoops.js" />
+        <option value="$PROJECT_DIR$/Day6/Day6Validation.html" />
+        <option value="$PROJECT_DIR$/Day6/js/Day6Validation.js" />
       </list>
     </option>
   </component>
@@ -558,8 +570,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day6/js/Day6ForLoops.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83619344" vertical-offset="124" max-vertical-offset="795">
+        <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="795">
           <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day6/Day6Validation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day6/js/Day6Validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21060842" vertical-offset="0" max-vertical-offset="641">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding />
         </state>
       </provider>
