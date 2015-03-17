@@ -31,3 +31,24 @@ Day 7 returns
  //console.log(area);
  console.log(rectArea);
 
+
+ //Create a function to calculate the area of a circle
+ function circleArea (r){
+     //calc area Pi * r * r
+     var area = Math.PI * r * r;
+     //Return the value
+     return area;
+
+
+ }
+
+ //function call this circle area
+ //create a variable to catch the returned area
+ var circArea = circleArea(6);
+
+ //console.log the results
+ console.log("The are of the circle is " + circArea);
+
+ // What is twice the circle are of a six inch circle
+ var resultsTwice = circArea * 2;
+ console.log("Twice the area is " + resultsTwice);
