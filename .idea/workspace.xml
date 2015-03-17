@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56b322a1-73eb-488e-8c80-ad34091bab2f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day7/js/Day7Beer.js" afterPath="$PROJECT_DIR$/Day7/js/Day7Beer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day7/js/Day7Zombies.js" afterPath="$PROJECT_DIR$/Day7/js/Day7Zombies.js" />
     </list>
     <ignored path="johnson_travis_SDI.iws" />
@@ -26,21 +27,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Day7Zombies.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Day7Zombies.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day7/js/Day7Zombies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83619344" vertical-offset="259" max-vertical-offset="900">
-              <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+              <caret line="54" column="84" selection-start-line="54" selection-start-column="84" selection-end-line="54" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day7Zombies.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day7/Day7Zombies.html">
+      <file leaf-file-name="Day7Beer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day7/js/Day7Beer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day7LoopsArrays.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day7/js/Day7LoopsArrays.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21060842" vertical-offset="0" max-vertical-offset="641">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day7LoopArrays.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day7/Day7LoopArrays.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -87,9 +108,11 @@
         <option value="$PROJECT_DIR$/Day6/js/Day6WhileLoop.js" />
         <option value="$PROJECT_DIR$/Johnson_Travis_Loops_Worksheet/js/JohnsonTravisLoopsWorksheet.js" />
         <option value="$PROJECT_DIR$/Day7/Day7Beer.html" />
-        <option value="$PROJECT_DIR$/Day7/js/Day7Beer.js" />
         <option value="$PROJECT_DIR$/Day7/Day7Zombies.html" />
         <option value="$PROJECT_DIR$/Day7/js/Day7Zombies.js" />
+        <option value="$PROJECT_DIR$/Day7/js/Day7Beer.js" />
+        <option value="$PROJECT_DIR$/Day7/Day7LoopArrays.html" />
+        <option value="$PROJECT_DIR$/Day7/js/Day7LoopsArrays.js" />
       </list>
     </option>
   </component>
@@ -329,22 +352,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Johnson_Travis_Loops_Worksheet/js/JohnsonTravisLoopsWorksheet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day6/js/Day6Validation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="735">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Johnson_Travis_Loops_Worksheet/JohnsonTravisLoopsWorksheet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
@@ -675,14 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day7/js/Day7Beer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day7/Day7Zombies.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
@@ -693,8 +692,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day7/js/Day7Zombies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83619344" vertical-offset="259" max-vertical-offset="900">
-          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <caret line="54" column="84" selection-start-line="54" selection-start-column="84" selection-end-line="54" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day7/js/Day7Beer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day7/Day7LoopArrays.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day7/js/Day7LoopsArrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21060842" vertical-offset="0" max-vertical-offset="641">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding />
         </state>
       </provider>
