@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56b322a1-73eb-488e-8c80-ad34091bab2f" name="Default" comment="" />
+    <list default="true" id="56b322a1-73eb-488e-8c80-ad34091bab2f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day7/js/Day7Zombies.js" afterPath="$PROJECT_DIR$/Day7/js/Day7Zombies.js" />
+    </list>
     <ignored path="johnson_travis_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="Day7Zombies.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day7/js/Day7Zombies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95319813" vertical-offset="64" max-vertical-offset="765">
-              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.83619344" vertical-offset="259" max-vertical-offset="900">
+              <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -691,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day7/js/Day7Zombies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95319813" vertical-offset="64" max-vertical-offset="765">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.83619344" vertical-offset="259" max-vertical-offset="900">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
           <folding />
         </state>
       </provider>

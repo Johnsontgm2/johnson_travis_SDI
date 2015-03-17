@@ -25,11 +25,19 @@ Day 7 Zombies
  var numBites = 4;
 
  // Number of days that the CDC wants
- var days = 8;
+ var numDays = 8;
 
  //create for loop to calculate zombie number
- for(var i = 1; i <= days; i++ ){
+ /*for(var i = 1; i <= days; i++ ){
 
+
+ }
+*/
+
+ //How long will it take to get a million zombies
+
+ var numDays = 1;
+ while(numZombies <= 1000000){
      //How many new zombies get made every day
      var newZombies = numZombies * numBites;
 
@@ -37,10 +45,10 @@ Day 7 Zombies
      numZombies += newZombies;
 
      //console.log the results
-     console.log("There are " + numZombies + " number of zombies on day # " + i + "!");
+     console.log("There are " + numZombies + " number of zombies on day # " + numDays + "!");
+
+     numDays++;
 
  }
 
- //How long will it take to get a million zombies
-
- 
+ console.log("It will take " + (numDays - 1) + "to reach a million zombies.");
