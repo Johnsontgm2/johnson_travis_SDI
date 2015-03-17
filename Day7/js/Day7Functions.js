@@ -6,7 +6,7 @@ Section 00
 Day 7 functions
  *///function call print hello before it is defined in our code
  printHello();
-calcArea();
+ calcArea();
 //alert("Testing");
 
  //basic structure of a function

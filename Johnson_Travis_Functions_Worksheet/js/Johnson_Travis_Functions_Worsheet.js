@@ -10,6 +10,7 @@ Functions Worksheet
 //alert("Testing");
 
  //create function to calculate the circumference of a circle
+var radius = 2;
 
 function calcCircleCircumference(r){
     //calc circumference
@@ -20,7 +21,7 @@ function calcCircleCircumference(r){
 
 }
  //create variable to catch returned circumference
- var circleCircumf = calcCircleCircumference();
+ var circleCircumf = calcCircleCircumference(2);
 
  //Show circumference of a circle
 
@@ -28,6 +29,8 @@ function calcCircleCircumference(r){
 
 
  //create a function to find how many bee stings can kill
+ var weight = 225;
+
  function deathByBees(w){
      //Calculate the number of bee stings until death
      var death = w * 8.7;
@@ -35,7 +38,7 @@ function calcCircleCircumference(r){
      return death
  }
  //create variable to catch stings till death
- var beeStingsTillDeath =  deathByBees(225);
+ var beeStingsTillDeath =  deathByBees(weight);
 
  //Show how many stings
  console.log("It takes " + beeStingsTillDeath + " to kill this animal");
