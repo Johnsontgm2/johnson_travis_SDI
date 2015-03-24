@@ -21,7 +21,7 @@ function calcCircleCircumference(r){
 
 }
  //create variable to catch returned circumference
- var circleCircumf = calcCircleCircumference(2);
+ var circleCircumf = calcCircleCircumference(radius);
 
  //Show circumference of a circle
 
