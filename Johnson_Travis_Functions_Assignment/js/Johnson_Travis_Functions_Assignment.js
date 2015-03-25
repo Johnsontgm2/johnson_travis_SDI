@@ -6,6 +6,7 @@ Section 00
 Functions Assignment
  */
 
+ //DO THE to.lowercase for prompt
 
 //alert("Testing");
 
@@ -26,21 +27,30 @@ while(milDotScope === ""){
     prompt("Please only enter yes or no. Do you have a MIL-DOT scope?");
  }
 
+ //Find out if user wants distance in yards or meters then assign functions and do calculations
+ var pickDistanceOfMeasurement = prompt("Please enter the unit of measurement you would like to use. Please enter either yards or meters");
+ pickDistanceOfMeasurement.toLowerCase();
 
- //Do calculations using Functions
-var calculateDistanceMeters = function(inches,constantForMeters,mim){
-    var distanceMeters = (inches / constantForMeters) * 1000 / mim;
-    return distanceMeters
+ if(pickDistanceOfMeasurement === "meters" || pickDistanceOfMeasurement === "m"){
+     var calculateDistanceMeters = function(inches,constantForMeters,mim){
+         var distanceMeters = (inches / constantForMeters) * 1000 / mim;
+         return distanceMeters
 
-}
-
-
-
- function calculateDistanceYards(inches1,constant,mim1){
+ } } else if(pickDistanceOfMeasurement === "yards" || pickDistanceOfMeasurement === "yds" ){
+     function calculateDistanceYards(inches1,constant,mim1){
      var distanceYards = (inches1 * constant) / mim1
      return distanceYards
 
- }
+ }}
+
+ 
+
+
+
+
+
+
+
 
 
 
