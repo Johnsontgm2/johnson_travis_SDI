@@ -79,7 +79,26 @@ Functions Assignment
 
  }
 
-
+/*
+First I went through and made sure the responses validated
+For the question of yards or meters I Entered nothing : validation prompt
+For the question of yards or meters I Entered monkey : validation prompt
+Responded meters : moved to next prompt of inches
+For inches I Entered empty text string : validation prompt
+for inches I Entered cat : validation prompt
+For inches I Entered 34 like in the example : went to MILS prompt
+For MILS I Entered empty text string : validation prompt
+For MILS I Entered banana : validation prompt
+For MILS I Entered 1.5 : command prompt The distance to the target is 575.2961082910322 meters.
+The number is different from the example I decided not to round I wanted the calculator to be as accurate as possible
+Responded yards
+ For inches I Entered empty text string : validation prompt
+ for inches I Entered cat : validation prompt
+ For inches I Entered 12 like in the example : went to MILS prompt
+ For MILS I Entered empty text string : validation prompt
+ For MILS I Entered banana : validation prompt
+ For MILS I Entered 2 : command prompt The distance to the target is 166.8 yards.
+ */
 
 
 
