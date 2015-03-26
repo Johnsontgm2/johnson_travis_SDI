@@ -11,39 +11,77 @@ Functions Assignment
 //alert("Testing");
 
 //Inform the user of the calculators purpose
- alert("This calculator is designed to find the distance of an object (In yards) when given the size of the target in inches and the measurement of the object in Mils.A MIL-DOT SCOPE IS REQUIRED FOR THESE CALCULATIONS.");
+ alert("This calculator is designed to find the distance of an object in yards or meters when given the size of the target in inches and the measurement of the object in Mils.A MIL-DOT SCOPE IS REQUIRED FOR THESE CALCULATIONS.");
 
  //First make sure the user has a mil dot scope before starting
  var milDotScope = prompt("For this calculator to function properly you must have a MIL-DOT scope.\n Do you have a MIL-DOT scope? (if unsure check user manual)");
+ //convert to lowercase
+ milDotScope.toLowerCase();
 
- //validate and prompt user if scope not mil-dot
+ //validate and alert user if scope not mil-dot
 while(milDotScope === ""){
      milDotScope = prompt("Please do not leave blank\n Is your scope MIL-DOT? Please enter yes or no (Remember if your not sure to check your manual)");
 }
- while(milDotScope === "no" || milDotScope === "No"){
-    milDotScope = alert("You must have a MIL-DOT scope to continue\n If unsure check the user manual of your scope")
+ while(milDotScope != "yes" &&  milDotScope != "no"){
+     prompt("Please only enter yes or no. Do you have a MIL-DOT scope?");
  }
- while(milDotScope != "Yes" && milDotScope != "yes" && milDotScope && "No" && milDotScope != "no"){
-    prompt("Please only enter yes or no. Do you have a MIL-DOT scope?");
+ if(milDotScope === "no"){
+    milDotScope = console.log("You must have a MIL-DOT scope to continue\nIf unsure about check the user manual of your scope");
  }
 
  //Find out if user wants distance in yards or meters then assign functions and do calculations
+ //ask for measurement wanted
  var pickDistanceOfMeasurement = prompt("Please enter the unit of measurement you would like to use. Please enter either yards or meters");
+ //convert to lowercase
  pickDistanceOfMeasurement.toLowerCase();
 
+ //validate
+ while(pickDistanceOfMeasurement === "" || pickDistanceOfMeasurement != "meters" && pickDistanceOfMeasurement != "yards"){
+     pickDistanceOfMeasurement = prompt("Please do not leave blank and only enter yards or meters")
+ }
+ //Do calculation if meters is picked
  if(pickDistanceOfMeasurement === "meters" || pickDistanceOfMeasurement === "m"){
+     //Get user prompt for inches and validate
+     var inchesUser = prompt("What is the size of the target is inches. Please only enter a number.");
+     while(isNaN(inchesUser || inchesUser === "")){
+         inchesUser = prompt("Please only enter a number and do not leave blank. Please enter the size of the target in inches")
+     }
+     //get user input for mils and validate
+     var mimUserMeters = prompt("What is the size of the object in MILS");
+     while(isNaN(mimUserMeters || mimUserMeters === "")){
+         mimUserMeters = prompt("Please only enter a number and do not leave blank. Please enter the size of the object in MILS");
+     }
+    //insert anon. function
      var calculateDistanceMeters = function(inches,constantForMeters,mim){
          var distanceMeters = (inches / constantForMeters) * 1000 / mim;
          return distanceMeters
+     };
+     //cal function and give user output
+     var anonMeters = calculateDistanceMeters(inchesUser,39.4,mimUserMeters);
+     console.log("The distance to the target is " + anonMeters + " meters.");
 
- } } else if(pickDistanceOfMeasurement === "yards" || pickDistanceOfMeasurement === "yds" ){
-     function calculateDistanceYards(inches1,constant,mim1){
-     var distanceYards = (inches1 * constant) / mim1
-     return distanceYards
+     //else if for if user enters yards
+ } else if(pickDistanceOfMeasurement === "yards" || pickDistanceOfMeasurement === "yds" ){
+     //get prompts and validate
+     var inches2 = prompt("What is the size of the target is inches?");
 
- }}
+     while(isNaN(inches2 || inches2 === "")){
+         inches2 = prompt("Please only enter a number and do not leave blank. Please enter the size of the target in inches")
+     }
+     var mimUserYards = prompt("What is the size of the target MILS");
+     while(isNaN(mimUserYards || mimUserYards === "")){
+         mimUserYards = prompt("Please only enter a number and do not leave blank. Please enter the size of the object in MILS");
+     }
+     //function
+     function calculateDistanceYards(inches1,constant,mim1) {
+         var distanceYards = (inches1 * constant) / mim1;
+         return distanceYards
+     }
+     //call function and give user output
+     var distanceInYards = calculateDistanceYards(inches2,27.8,mimUserYards);
+     console.log("The distance to the target is " + distanceInYards + " yards.")
 
- 
+ }
 
 
 
