@@ -46,6 +46,7 @@ Functions Assignment
      var calculateDistanceMeters = function(inches,constantForMeters,mim){
          var distanceMeters = (inches / constantForMeters) * 1000;
          distanceMeters /= mim;
+         distanceMeters = distanceMeters.toFixed(2);
          return distanceMeters
      };
      //cal function and give user output
@@ -71,6 +72,7 @@ Functions Assignment
      //function
      function calculateDistanceYards(inches1,constant,mim1) {
          var distanceYards = (inches1 * constant) / mim1;
+         distanceYards = distanceYards.toFixed(2);
          return distanceYards
      }
      //call function and give user output
